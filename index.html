@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+
+    <div class="button-wrap">
+      <button id="change-to-red" class="change">Red Ceiling</button>
+      <button id="change-to-blue" class="change">Blue Ceiling</button>
+      <button id="change-to-green" class="change">Green Ceiling</button>
+      <button id="change-texture" class="change">Change Texture</button>
+      <button id="upload-media" class="change">Upload and try</button>
+    </div>
+
+    <div class="media-upload-wrap" hidden>
+      <video id="media-upload-video" width="320" height="240" autoplay></video>
+      <button id="capture-media" class="capture-media">Capture</button>
+      <canvas id="media-upload-canvas" width="320" height="240"></canvas>
+      <button id="close-modal" class="capture-media">Close Modal</button>
+    </div>
+
+  </body>
+</html>

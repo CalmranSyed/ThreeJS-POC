@@ -1,0 +1,18 @@
+{
+  "name": "ar-visualizer-poc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "fbx2gltf": "^0.9.7-p1",
+    "three": "^0.151.3"
+  }
+}
